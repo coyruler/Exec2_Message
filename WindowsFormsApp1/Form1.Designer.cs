@@ -36,7 +36,7 @@
             // 
             // btnGreet1
             // 
-            this.btnGreet1.Location = new System.Drawing.Point(66, 12);
+            this.btnGreet1.Location = new System.Drawing.Point(37, 24);
             this.btnGreet1.Name = "btnGreet1";
             this.btnGreet1.Size = new System.Drawing.Size(75, 23);
             this.btnGreet1.TabIndex = 0;
@@ -47,7 +47,7 @@
             // lblGreeting1
             // 
             this.lblGreeting1.AutoSize = true;
-            this.lblGreeting1.Location = new System.Drawing.Point(173, 17);
+            this.lblGreeting1.Location = new System.Drawing.Point(144, 29);
             this.lblGreeting1.Name = "lblGreeting1";
             this.lblGreeting1.Size = new System.Drawing.Size(33, 12);
             this.lblGreeting1.TabIndex = 1;
@@ -55,7 +55,7 @@
             // 
             // btnGreet2
             // 
-            this.btnGreet2.Location = new System.Drawing.Point(66, 87);
+            this.btnGreet2.Location = new System.Drawing.Point(37, 99);
             this.btnGreet2.Name = "btnGreet2";
             this.btnGreet2.Size = new System.Drawing.Size(75, 23);
             this.btnGreet2.TabIndex = 2;
@@ -66,7 +66,7 @@
             // lblGreeting2
             // 
             this.lblGreeting2.AutoSize = true;
-            this.lblGreeting2.Location = new System.Drawing.Point(173, 92);
+            this.lblGreeting2.Location = new System.Drawing.Point(144, 104);
             this.lblGreeting2.Name = "lblGreeting2";
             this.lblGreeting2.Size = new System.Drawing.Size(33, 12);
             this.lblGreeting2.TabIndex = 3;
@@ -76,11 +76,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(435, 535);
+            this.ClientSize = new System.Drawing.Size(405, 147);
             this.Controls.Add(this.lblGreeting2);
             this.Controls.Add(this.btnGreet2);
             this.Controls.Add(this.lblGreeting1);
             this.Controls.Add(this.btnGreet1);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(421, 186);
+            this.MinimizeBox = false;
+            this.MinimumSize = new System.Drawing.Size(421, 186);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
